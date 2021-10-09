@@ -1,0 +1,38 @@
+.groups-wrapper {
+    .MuiGrid-root {
+        margin: 0 5px;
+        flex-basis: 23.666667%;
+        max-width: 23.666667%;
+        margin-bottom: 1rem;
+    }
+    &-info{
+    h2 {
+    background-color: #1e88e5;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 5px;
+    }
+}
+
+&-detail{
+    text-align: center;
+    border: 0.5px solid gainsboro;
+    svg {
+        font-size: 8rem;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+    }
+
+    button {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 1rem;
+    }
+
+    .groups-wrapper-buttons {
+        display: flex;
+    }
+}
+
+}

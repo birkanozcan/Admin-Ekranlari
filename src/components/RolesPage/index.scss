@@ -1,0 +1,44 @@
+.RolesIcon {
+    display: flex!important;
+    align-items: center;
+    justify-content: center;
+    button {
+        border: none!important;
+        min-width: 0px;
+    }
+    .MuiButton-root:hover {
+        background: none;
+    }
+}
+
+.MuiDialogTitle-root {
+    .MuiTypography-root {
+        display: flex;
+        justify-content: space-between;
+        button {
+            border: none!important;
+        }
+    }
+}
+
+.role-wrapper {
+    margin-top: 1rem;
+        &-buttons {
+            margin-top: 2rem;
+                 button {
+                     margin: 0 10px;
+                     }
+         }
+
+}
+
+
+#customized-dialog-title {
+    padding: 6px 10px;
+    color: #fff;
+    background-color: #acacac;
+    button {
+        min-width: 0;
+        color: white;
+    }
+}

@@ -1,0 +1,145 @@
+.home-analytics {
+
+    &-wrapper {
+        margin-top: 32px !important;
+
+        svg {
+            height: auto;
+            width: 80%;
+            color: #959595;
+        }
+    
+        div {
+            text-align: center;
+        }
+    
+        p {
+            font-size: 18px;
+            color: #7f7f7f;
+            font-weight: 600;
+        }
+    }
+
+    &-item {
+        border: 1px solid #bbbbbb;
+        justify-content: center;
+        align-items: center;
+        background-color: #fff;
+    }
+
+}
+
+.home-charts {
+
+    &-wrapper {
+        margin-top: 15px !important;
+    }
+
+    &-item {
+        border: 1px solid #bbbbbb;
+        background-color: #fff;
+    }
+
+    &-title {
+        text-align: center;
+        background: #1e88e5;
+        padding: 12px;
+        margin-top: 0;
+        color: #fff;
+        font-weight: 600;
+        font-size: 16px;
+        margin: 0;
+    }
+}
+
+.rv-xy-plot {
+    margin: 0 auto;
+    &__inner {
+        overflow: inherit;
+    }
+
+    &__series--label-text {
+        color: white;
+    }
+
+}
+
+.home-table-title {
+    text-align: center;
+    background: #1e88e5;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    p {
+        text-align: center;
+        width: 100%;
+    }
+}
+.home-table {
+    &-title ~ .MuiTable-root{
+        overflow: hidden;
+        }
+
+        &-container {
+            margin-top: 16px!important;
+            margin-bottom: 16px!important;
+        }    
+}
+
+.home-carousel {
+
+    &-wrapper {
+        border: 1px solid #bbbbbb;
+        background-color: #fff;
+        height: 100%;
+    }
+
+    &-img {
+        width: 100%;
+        max-height: 100%;
+        object-fit: cover;
+    }
+
+    &-engagement {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        svg {
+            margin: 0 8px;
+        }
+    }
+
+    &-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+.home-dropdown {
+    &-wrapper {
+        color: #fff !important;
+    }
+}
+
+.home-table-container {
+    .MuiTableCell-root {
+        padding: 10px;
+    }
+
+    .MuiTableCell-head {
+        line-height: initial;
+    }
+
+    .CarouselItem {
+        .MuiGrid-grid-xs-5 {
+            height: 13rem;
+        }
+    }
+}

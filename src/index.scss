@@ -1,0 +1,25 @@
+@import "../src/components/header/index.scss";
+
+body {
+    color: #858585 !important;
+}
+
+.MuiTableCell-body {
+    color: #858585 !important;
+}
+
+
+.MuiPaper-root {
+    color: #858585 !important;
+}
+
+.MuiAppBar-colorPrimary { 
+    color: #fff !important;
+}
+
+.home-picker-wrapper {
+    .MuiFormControl-root {
+        width: 100%;
+    }
+}
+

@@ -1,0 +1,45 @@
+.firms-detail {
+    display: flex;
+    align-items: center;
+
+    .MuiInputLabel-formControl {
+        width: 100%;
+    }
+}
+
+.firms-detail-photo {
+    display: flex;
+    align-items: center;
+    width: 100%!important;
+
+}
+
+.firms-manager {
+    display: flex;
+    align-items: center;
+}
+
+.form-firms {
+    .MuiFormControl-root {
+        width: 17%;
+    }
+
+    label {
+        width: 5%;
+    }
+}
+
+.firms-button {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    button {
+        margin: 5px;
+    }
+
+    a {
+        text-decoration: none;
+    }
+}
